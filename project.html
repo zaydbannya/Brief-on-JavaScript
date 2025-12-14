@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Generate random</title>
+</head>
+<body>
+    <h2>Javascript while loop</h2>
+    <p id="number"></p>
+    <script>
+        var text = "";
+        var i = 0;
+        while (i < 5) {
+            text += "<br>The number is " + Math.floor(Math.random() * 10);
+            i++;
+        }
+        document.getElementById("number").innerHTML = text;
+    </script>
+</body>
+</html>
